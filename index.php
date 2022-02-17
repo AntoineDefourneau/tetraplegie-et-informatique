@@ -14,6 +14,15 @@
       <header>
          <h1>
             <a href="index.php<?php echo $suffix_url; ?>"><?php echo $textes['index_title']; ?></a>
+            <a id="lang_link" href="index.php<?php echo $suffix_url == "?en" ? "" : "?en"; ?>">
+            <?php
+               if($suffix_url == "?en") {
+                  echo "Version française";
+               } else {
+                  echo "English version";
+               }
+            ?>
+            </a>
          </h1>
          <nav>
             <ul>
