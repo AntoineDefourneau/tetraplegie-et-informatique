@@ -1,0 +1,28 @@
+article li a {
+
+    color:#142551;
+    text-decoration: underline;
+    font-size: 1.2em;
+
+}
+
+b{
+    color: #142551;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li:before {
+    content : "\2022";
+    color:#142551;
+    margin: 1em;
+    font-size: 1.3em;
+}
+
+main article {
+
+    margin-bottom: 15%;
+
+}

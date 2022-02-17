@@ -1,0 +1,175 @@
+html {
+	box-sizing: border-box;
+	min-height: 100%;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #4d4d4d;
+	background: #fff;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+}
+
+body {
+	min-height: 100%;
+	margin: 0;
+}
+
+p {
+	margin-bottom: 32px;
+	margin-bottom: 2rem;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	background: transparent;
+	transition: all 0.25s ease-in-out;
+}
+
+
+header {
+	background: #142551;
+	color: #fff;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 25em;
+	padding-right: 25em;
+}
+
+header a {
+	color: inherit;
+}
+
+header h1 img {
+	bottom: 0.6em;
+	width: 2em;
+	float: left;
+	margin-right: 15px;
+	position: relative;
+
+
+}
+
+h1 a {
+	display: block;
+	font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-size: 1.25rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h2~p {
+	font-size: 1rem;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header nav ul>li {
+	position: relative;
+	float: left;
+}
+
+header nav {
+	float: right;
+	margin: 16px 0;
+	margin: 1rem 0;
+}
+
+header nav ul>li>a {
+	display: block;
+	padding: 8px 16px;
+	padding: 0.5rem 1rem;
+	font-size: 20px;
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+header nav ul>li>a:hover {
+	display: block;
+	padding: 8px 16px;
+	padding: 0.5rem 1rem;
+	font-size: 20px;
+	font-size: 1.25rem;
+	font-weight: 300;
+	color: #AFAFAF;
+}
+header nav ul>li.active a {
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.25);
+}
+header nav ul>li.active:hover a {
+	color: white;
+}
+
+main {
+	margin-top: 20px;
+	text-align: center;
+}
+
+article {
+	padding-left: 30%;
+	padding-right: 30%;
+	text-align: justify;
+}
+
+article h1, article h2, article h3, article h4, article h5, article h6 {
+	color: #CD2955;
+}
+
+article img {
+	max-height: 15em;
+	max-width: 50vw;
+	float: left;
+	margin-right: 1em;
+}
+
+footer div:first-child {
+	background-color: #f3f3f3;
+	color: #999;
+	border-top: 4px solid #142551;
+	padding: 4rem 0;
+	display: flex;
+	align-items: center;
+}
+
+footer div:first-child img {
+	width: 10vw;
+	margin: auto;
+}
+
+footer div:first-child a {
+	margin: auto;
+}
+
+footer div:last-child {
+	background-color: #142551;
+	color: #fff;
+}
+
+footer div:last-child p {
+	max-width: 50%;
+	display: inline-block;
+}
+
+footer div p {
+	display: inline-block;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 0.5em;
+}
+
+footer div:last-child p:last-child {
+	float: right;
+}
+
+iframe {
+	border : 0;
+}
